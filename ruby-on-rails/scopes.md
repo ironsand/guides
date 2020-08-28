@@ -8,7 +8,7 @@ Go to doorkeeper's initializer and add:
 {% code-tabs-item title="config/initializers/doorkeeper.rb" %}
 ```ruby
 Doorkeeper.configure do
-  default_scopes :read
+  default_scopes :public
   optional_scopes :write
     
   enforce_configured_scopes
